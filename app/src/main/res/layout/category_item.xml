@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@color/black" android:layout_margin="4dp">
+
+
+
+        <ImageView
+            android:id="@+id/categoryImage"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/arabic_category"
+            android:contentDescription="TODO"
+            android:scaleType="centerCrop" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        >
+        <TextView
+            android:id="@+id/categoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+           android:textColor="@color/white"
+
+            />
+
+        <TextView
+            android:id="@+id/categoryItemsCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24 places"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

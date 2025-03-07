@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/yellowColor"
+    tools:context=".LoginActivity"
+
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+android:layout_gravity="center"
+        android:src="@drawable/splash"
+        /><TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold|italic"
+    android:textSize="25sp"
+    android:textColor="@color/black"
+android:layout_gravity="center"
+
+    android:layout_marginBottom="29dp"
+    android:text="Restarant Order"
+    />
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter custom name"
+        android:padding="10dp"
+        android:background="@drawable/field_background"/>
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Continue"
+
+
+
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
